@@ -1,0 +1,11 @@
+dbt_practice:
+  outputs:
+    dev:
+      catalog: dbt_course_dev
+      host: 
+      http_path: 
+      schema: default
+      threads: 1
+      token:
+      type: databricks
+  target: dev
